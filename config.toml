@@ -1,0 +1,8 @@
+[data]
+# Full dataset is intentionally not committed to GitHub.
+# See README.md and scripts/prepare_speech_commands.py.
+data_dir = "data/raw"
+data_train_dir = "data/train"
+data_validate_dir = "data/validate"
+data_test_dir = "data/test"
+asl_videos_dir = "data/illustration"

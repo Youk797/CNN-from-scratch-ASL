@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data (dataset is ~GB-scale and must not be committed)
+data/**
+!data/README.md
+
+# Local ASL media and ad-hoc examples
+*.mp4
+examples/*.wav
+!examples/README.md
+
+# Generated quarantine / logs
+**/quarantaine/
+logs/
+
+# Generated model checkpoints: keep only the small demo snapshot explicitly
+models/*.npz
+!models/snapshot.npz
+
+# Temporary files
+*.tmp
+*.log
